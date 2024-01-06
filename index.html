@@ -1,13 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Complete Portfolio Website | Using HTML/CSS $ JavaScript</title>
+    <!-- <link rel="stylesheet" href="boxicons-2.0.9/css/boxicons.min.css"> -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
-<body>
-    <h1>Monika Portfolio</h1>
+
+<body id="home">
+    <div class="scroll-up-btn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <div class="showcase">
+        <nav id="nav-menu" class="navbar">
+
+            <h1 class="logo"><span class="text-secondary">Port</span>folio</h1>
+
+            <ul class="menu">
+                <li>
+                    <a href="#home" class="nav-link home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="nav-link skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link about">About</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="nav-link projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link contact">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <section id="home" class="showcase-content">
+            <div class="showcase-text">
+                <div id="user-detail-name" class="text-1">Hello, my name is</div>
+                <div class="text-2">Monika Varshney</div>
+                <div class="text-3">I'm a <span class="typing-1"></span></div>
+               
+
+            </div>
+
+        </section>
+    </div>
+
+    <section id="skills" class="skills">
+        <h1>MY SKILLS</h1>
+        <div class="container">
+            <h5 class="title text-center m-heading text-secondary">MY SKILLS</h5>
+            <div class="skills-content">
+                <div class="main">
+                    <div class="skills-card">
+                        <div class="skills-logo">
+                            <i class="fa-brands fa-wordpress skills-card-img"></i>
+                            <h4 class="skills-card-name">WordPress</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="main">
+                    <div class="skills-card">
+                        <div class="skills-logo">
+                            <i class="fa-brands fa-google skills-card-img"></i>
+                            <h4 class="skills-card-name">Google Ads</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="main">
+                    <div class="skills-card">
+                        <div class="skills-logo">
+                            <i class="fa-brands fa-meta skills-card-img"></i>
+                            <h4 class="skills-card-name">Facebook Ads</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="main">
+                    <div class="skills-card">
+                        <div class="skills-logo">
+                            <i class="fa-brands fa-searchengin skills-card-img"></i>
+                            <h4 class="skills-card-name">SEO</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="main">
+                    <div class="skills-card">
+                        <div class="skills-logo">
+                            <i class="fa-brands fa-meta skills-card-img"></i>
+                            <h4 class="skills-card-name">SMO</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="main">
+                    <div class="skills-card">
+                        <div class="skills-logo">
+                            <i class="fa-brands fa-shopify skills-card-img"></i>
+                            <h4 class="skills-card-name">Shopify</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="main">
+                    <div class="skills-card">
+                        <div class="skills-logo">
+                            <!-- <i class="bx bxl-nodejs bx-lg "></i> -->
+                            <i class="fa-solid fa-audio-description skills-card-img"></i>
+                            <h4 class="skills-card-name">Visual Banner</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="main">
+                    <div class="skills-card">
+                        <div class="skills-logo">
+                            <i class="fa-brands fa-autoprefixer skills-card-img"></i>
+                            <h4 class="skills-card-name">Marketing Automation</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="main">
+                    <div class="skills-card">
+                        <div class="skills-logo">
+                            <i class="fa-solid fa-hashtag skills-card-img"></i>
+                            <h4 class="skills-card-name">SMM</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="main">
+                    <div class="skills-card">
+                        <div class="skills-logo">
+                            <i class="fa-solid fa-envelope skills-card-img"></i>
+                            <h4 class="skills-card-name">Email Marketing</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about" class="about section">
+        <h1>ABOUT ME</h1>
+        <div class="container">
+            <h5 class="title text-center m-heading text-secondary">ABOUT ME</h5>
+            <div class="about-content">
+                <div class="column left">
+                    <img
+                        src="./images/monika_img.jpg">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Monika Varshney and I'm a <span class="typing-2"></span></div>
+                    <p id="user-detail-intro">Hi, I'm a digital marketer and WordPress whiz. I specialize in crafting stunning websites and driving online success. From compelling content to SEO mastery, I'm here to transform your digital presence. Let's make waves together!</p>
+                    <table class="table">
+                        <tr>
+                            <td>Phone</td>
+                            <td>: +91-9627979585</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>: monikavarshney1998@gmail.com </td>
+                        </tr>
+                        <tr>
+                            <td>From</td>
+                            <td>: Shalimar bagh, Delhi</td>
+                        </tr>
+                        <tr>
+                            <td>Language</td>
+                            <td>: English, Hindi</td>
+                        </tr>
+                        
+                    </table>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+
+        <h1>MY PROJECTS</h1>
+        <div class="container">
+            <h5 class="title text-center m-heading text-secondary">MY PROJECTS</h5>
+            <div class="carousel owl-carousel">
+
+                <div class="card">
+                    <div class="project-card">
+                        <img src="./images/oil.png"  alt="">
+                        <div class="text project-title">Bodhi Naturals- Essential Oil</div>
+                        
+                        <div class="project-tech-stack">Tech Stack:- Wordpress</div>
+                        <a href="https://bodhinaturals.in/" class="project-deployed-link" target="_blank">Deployed
+                            Link</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="project-card">
+                        <img src="./images/hospital.png"  alt="">
+                        <div class="text project-title">Shantiraj Hospital- Udaipur</div>
+                       
+                        <div class="project-tech-stack">Tech Stack:- Wordpress</div>
+                        <a href="https://www.shantirajhospital.com/" class="project-deployed-link" target="_blank">Deployed
+                            Link</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="project-card">
+                        <img src="./images/truck.png"  alt="">
+                        <div class="text project-title">Sales Parabola Expedita</div>
+                       
+                        <div class="project-tech-stack">Tech Stack:- Wordpress</div>
+                        <a href="https://salesparabolaexpedita.pl/" class="project-deployed-link" target="_blank">Deployed
+                            Link</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="project-card">
+                        <img src="./images/news.png"  alt="">
+                        <div class="text project-title">Pradesh Today News</div>
+                        
+                        <div class="project-tech-stack">Tech Stack:- Wordpress</div>
+                        <a href="https://www.pradeshtodaynews.in/" class="project-deployed-link" target="_blank">Deployed
+                            Link</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+   
+    <section class="contact" id="contact">
+        <h1>CONTACT ME</h1>
+        <div class="container">
+            <h5 class="title text-center m-heading text-secondary">CONTACT ME</h5>
+            <div class="contact-content">
+                <div class="column left">
+                    <h2>Just Say Hello</h2>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" id="subject" placeholder="Your Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn-md">Send Message</button>
+                    </form>
+                </div>
+                <div class="column right">
+                    <h2>Contact Info</h2>
+                    <p class="lead">Hey folks, this is my contact information through which you can reach me. Please
+                        feel free to write your queries in the query box provided</p>
+                    <div class="items">
+                        <div class="item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p><span id="contact-email">monikavarshney1998@gmail.com</span></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p><span id="contact-phone">+91-9627979585</span></p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <i class="fa-solid fa-address-book"></i>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p><span>Shalimar bagh,</span></p>
+                                <p><span>Delhi, Pincode 110088</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Visit my social profile and get connected</p>
+                        <ul class="links">
+                        
+                            <li><a id="contact-linkedin" href="https://www.linkedin.com/in/monika-varshney-717ab3184/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </section>
+
+    
+
+    <footer id="footer">
+        <p>&copy; 2024. Designed by Monika Varshney. All Rights Reserved.</p>
+    </footer>
+    <script>
+        function downloadResume() {
+            window.open('https://export-download.canva.com/wIvSA/DAFY42wIvSA/124/0-47034842854.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20230215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230215T003809Z&X-Amz-Expires=37199&X-Amz-Signature=f3fea19bbde7c19b1941bbe7716807309bef6e98edeb01775711d7cb416704c5&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27VISHAL%2520SINGH.pdf&response-expires=Wed%2C%2015%20Feb%202023%2010%3A58%3A08%20GMT')
+        }
+        function downloaddeployed() {
+            window.open('https://https://idyllic-fairy-1c54a0.netlify.app')
+        }
+        function downloadgithub() {
+            window.open('https://github.com/vishalsingh0007/spiky-invention-2767')
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="app.js"></script>
+    <script src="./index.js"></script>
 </body>
+
 </html>
-<script src="./index.js"></script>
